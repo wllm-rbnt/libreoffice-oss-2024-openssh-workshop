@@ -25,6 +25,7 @@ RUN chmod +x /usr/local/bin/entry_point.sh
 COPY bashrc.user /home/user/.bashrc
 COPY bashrc.root /root/.bashrc
 COPY keys/* /etc/ssh/
+RUN chmod 400 /etc/ssh/*key
 
 ENV TZ Europe/Luxembourg
 
