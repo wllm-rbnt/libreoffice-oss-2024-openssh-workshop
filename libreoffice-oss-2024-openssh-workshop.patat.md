@@ -184,28 +184,6 @@ Your *local* machine can reach *gateway* server over 'The Internet'
 ---
 
 <!--config:
-wrap: false
-margins:
-    left: 10
-    right: 10
--->
-
-# Prebuilt Docker images
-
-Connect to Wi-Fi SSID *OpenSSH\_Workshop* using passphrase *OpenSSH\_Workshop*.
-
-Then go to *http://10.11.12.13/docker/* and download both images and checksum files.
-
-On GNU/Linux you can verify the checksums using the following commands
-(with all files in the same directory on your local machine):
-
-```bash
-sha256sum -c SHA256SUMS
-```
-
----
-
-<!--config:
 margins:
     left: 10
     right: 10
@@ -425,7 +403,7 @@ Username and password are the same as the one from the telnet example:
 - Start a traffic capture on TCP port 22 in another terminal, traffic is **encrypted**:
 
 ```sshschema
-(local)$ sudo tcpdump -n -i docker0 -XXX tcp and port 22
+(local)$ sudo tcpdump -n -i any -XXX tcp and port 22
 ```
 
 - Retrieve the server keys fingerprints through a secure channel:

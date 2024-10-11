@@ -17,7 +17,7 @@ echo "VisualHostKey yes" > /etc/ssh/ssh_config.d/VisualHostKey.conf
 echo "PermitRootLogin yes" > /etc/ssh/sshd_config.d/PermitRootLogin.conf
 #    sed -i 's/^\(UsePAM yes\)/# \1/' /etc/ssh/sshd_config; \
 
-echo 'Hello world ! This is lab-server listening on 127.0.0.1 port 80.' > /var/www/html/index.html
+echo 'Hello world ! This is gateway listening on 127.0.0.1 port 80.' > /var/www/html/index.html
 
-echo "IP address(es) of lab-server: $(hostname -i)"
+echo "IP address(es) of gateway: $(hostname -i)"
 exec "$@"
