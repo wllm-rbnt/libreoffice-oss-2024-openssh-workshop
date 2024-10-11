@@ -57,6 +57,7 @@ cd libreoffice-oss-2024-openssh-workshop
 
 Shorter URLs:
 
+- Matrix Room -> `https://tinyurl.com/56v3t9tu`
 - Repository -> `https://tinyurl.com/3hvzujan`
 - Slides:
     * Markdown (source version) -> `https://tinyurl.com/n72p77t5`
