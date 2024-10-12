@@ -1,4 +1,4 @@
-### A more recent version of this workshop will soon be available [here](https://github.com/wllm-rbnt/libreoffice-oss-2024-openssh-workshop) ###
+### A more recent version of this workshop will soon be available [here](https://github.com/wllm-rbnt/hacktivity-2024-openssh-workshop) ###
 
 Use [patat](https://github.com/jaspervdj/patat) to render the presentation:
 
