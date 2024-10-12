@@ -1,5 +1,4 @@
-#########################
-# lab-server fingerprints
+﻿# "gateway" machine fingerprints
 
 256 SHA256:gbF30TEqv4ucpI3VFIEjq0dnrji5woxacnPe+N9mFX8 root@460a6cac3a3c (ECDSA)
 +---[ECDSA 256]---+
@@ -41,8 +40,7 @@
 +----[SHA256]-----+
 
 
-###############################
-# internal-machine fingerprints
+# "internal" machine fingerprints
 
 256 SHA256:tLt5tkoTcmGKxRqxgp/Xn7xQ7XdF8w0xY9M+l9mBdgc root@460a6cac3a3c (ECDSA)
 +---[ECDSA 256]---+
