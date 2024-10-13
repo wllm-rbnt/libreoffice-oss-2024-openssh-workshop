@@ -1,4 +1,4 @@
-### A more recent version of this workshop will soon be available [here](https://github.com/wllm-rbnt/hacktivity-2024-openssh-workshop) ###
+### A more recent version of this workshop is available [here](https://github.com/wllm-rbnt/hacktivity-2024-openssh-workshop) ###
 
 Use [patat](https://github.com/jaspervdj/patat) to render the presentation:
 
@@ -10,4 +10,3 @@ Use *md2pdf.sh* to generate PDF/HTML versions from Markdown (this script require
 
     $ sudo apt install pandoc chromium
     $ ./md2pdf.sh
-
